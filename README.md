@@ -148,3 +148,33 @@ If 0/2/11 is assigned to S1, the telegram is routed to line 1 via BC1 and BC2 an
 
 ![coupling unit](<Images/Coupling unit-routingdiagram.png>)
 
+The telegram transmitted by sending device contains a routing center, of which the initial value is 6.
+
+Each line -/ BC or LR decrements the routing center and passes the telegram as long as the value has not reached 0
+
+##### __Internal and External interfaces__
+
+![I&E interfaces](<Images/internal and external interfaces.png>)
+
+KNX is open to be linked to any other system. the BL can be connected via a gateway unit.
+
+Media couplers connect different types of KNX media -> TP or RF
+
+##### __Backbone-/ LC classical structure__
+
+![LC classical structure](<Images/Backbone-line coupler classical structure.png>)
+
+##### __Taking into account higher telegram rates: IP Network__
+
+![IP network](<Images/taking into account higher telegram rates- IP network.png>)
+
+Replacement of LCs by KNXnet/IP routers is the increased telegram load, which can occur when the user makes use of visualization SW and devices with higher no. of channels.
+
+##### __LC replaced by KNXnet/IP__
+
+![LC replaced by IP](<Images/line coupler replaced by KNXnet-router.png>)
+
+Case 1 -> The KNXnet/Ip router can be used as a LC as well as a BC. If the KNXnet/IP router replaces LC, all main lines and basically also the BLs are replaced by Ethernet.
+
+Case 2 -> If BCs are replaced by KNXnet/IP routers, the normal LCs can remain, as only the backbone line is replaced by Ethernet.
+
