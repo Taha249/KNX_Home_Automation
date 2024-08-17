@@ -144,3 +144,7 @@ If S1 is mounted in another area, it can still address all bus devices via backb
 
 If 0/2/11 is assigned to S1, the telegram is routed to line 1 via BC1 and BC2 and LC1.
 
+##### __Coupling unit: Routing center__
+
+![coupling unit](<Images/Coupling unit-routingdiagram.png>)
+
