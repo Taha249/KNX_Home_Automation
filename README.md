@@ -30,3 +30,7 @@ The main abbreviations are used:
 
 ![abbreviations](Images/Abbreviations.jpg)
 
+##### __Topology Line__
+
+![topology line](<Images/Topology line.png>)
+
