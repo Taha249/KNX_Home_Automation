@@ -301,3 +301,17 @@ Bus devices require a min of 21 VDC for safe operation.
 
 
 </p>
+
+##### __Cable lengths__
+
+![cable lengths](<Images/cable lengths.png>)
+
+
+#### __KNX project design ETS5:Basics__
+
+##### __Installation of ETS__
+
+You can only obtain ETS from from KNX assosiation via internet in the KNX online shop : https://www.knx.org/knx-en/for-professionals/index.php
+
+##### __Licences__
+
