@@ -86,4 +86,8 @@ The individual address of an unloaded bus device is 15.15.255.
 
 If a coupler is used in the installation and the correct individual addresses are assigned to the couplers, a filter table will auto created in ETS file for the respective couplers.
 
-The filter table contains the active
+The filter table contains the active line-crossing group addresses.
+
+The coupler routes aal received droup addresses if these are listed in its filter table.
+
+The LR used in installation passes on all telegrams has no filter table.
