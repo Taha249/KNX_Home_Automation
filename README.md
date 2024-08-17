@@ -178,3 +178,23 @@ Case 1 -> The KNXnet/Ip router can be used as a LC as well as a BC. If the KNXne
 
 Case 2 -> If BCs are replaced by KNXnet/IP routers, the normal LCs can remain, as only the backbone line is replaced by Ethernet.
 
+
+#### __KNX RF__
+
+KNX RF allows the wireless transmission of telegrams by means of the medium radio frequency.
+
+##### __The RF transmission medium__
+
+The range of KNX RF components is indicated as free-filed range. Due to max transmission power and limitations of energy availabe in case of battery-operated, the free feild range is limited to 100 m.
+
+KNX RF uses 868 MHz frequency band.
+
+##### __KNX Ready(Single-channel solution)__
+
+<p>
+
+<img src="Images/KNX Ready(single channel solution)1.png" width="500" height="350">
+<img src="Images/KNX Ready(single channel solution)2.png" width="500" height="350">
+
+</p>
+
