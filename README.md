@@ -191,10 +191,101 @@ KNX RF uses 868 MHz frequency band.
 
 ##### __KNX Ready(Single-channel solution)__
 
-<p>
+![single channel](<Images/KNX Ready(single channel solution)1.png>)
 
-<img src="Images/KNX Ready(single channel solution)1.png" width="300" height="350">
-<img src="Images/KNX Ready(single channel solution)2.png" width="300" height="350">
+![single channel](<Images/KNX Ready(single channel solution)2.png>)
 
-</p>
+##### __KNX-RF Multi(multi-channel solution)__
+
+![multi channel](<Images/KNX RF multi(multi-channel solution).png>)
+
+##### __Cobination of transmission mdeia__
+
+![topology RF](<Images/Topology of RF.png>)
+
+#### __KNX Bus device__
+
+![bus device](<Images/KNX bus device.png>)
+
+A functioning bus device (dimming/shutter actuator) consists of 3 interconnecting parts:
+
+     - BCU -> Bus Coupling Unit
+     - AM -> Application Module
+     - AP -> Application Program
+
+
+#### __KNX TP Installation__
+
+##### __Safety Low Voltage Networks__
+
+![SELV](Images/SELV.png)
+
+Permitted voltage range:
+
+     Alternating current -> <= 50V
+     Direct current -> <= 120V
+
+⚠️ A SELV network may not be earthed!
+
+##### __SELV Safety Low Voltage Network__
+
+![SELV!](Images/SELV1.png)
+
+A PS with secure mains seperation generates the SELV voltage for KNX TP bus.
+
+Voltage used -> 30 VDC
+
+##### __Types of bus cables__
+
+![bus cables](<Images/bus cable.png>)
+
+     - YCYM 2x2x0.8 -> outdoors -> test voltage: 4Kv
+     - J-Y(st) 2x2x0.8 -> outdoors -> test voltage: 2.5Kv
+
+The requirements for instance include a loop resistance of 75 ohm and a loop capacitance of 100 nF per 1000 m.
+
+##### __Installation of cables__
+
+![cables installation](<Images/Installation of cables.png>)
+
+The requirements for installaiton of bus cables are the same as for installaiotn of 230/400 VAC networks.
+
+A min clearance space of 4mm must be observed between the insulated wire cores of KNX TP bus and those of sheathed 230 VAC.
+
+##### __Bus devices on distribution boards__
+
+     1. Use of standardised distribution boards.
+     2. Install bus cables with sheath up to the terminal.
+     3. Do not install bus devices above mains devices with significant power losses.
+     4. Cover unused section of data rail.
+
+##### __Power Supply unit__
+
+![PS unit](<Images/PS unit.png>)
+
+Bus devices require a min of 21 VDC for safe operation.
+
+##### __Power supply for two lines__
+
+![PS for 2 lines](<Images/PS for two lines.png>)
+
+##### __Two power supply units in one line__
+
+![2 PS units in one line](<Images/two PS units in one line.png>)
+
+##### __Distributed power supply__
+
+![DPS](<Images/Distributed power supply.png>)
+
+##### __Checking the installation__
+
+![checking](<Images/checking the installation.png>)
+
+##### __Power supply unit with data rail__
+
+![ps unit with datavrail](<Images/PS unit with data rail.png>)
+
+##### __Power supply unit for two lines with data rail__
+
+![ps unit for 2 lines with data rail](<Images/PS unit for 2 lines with data rail.png>)
 
