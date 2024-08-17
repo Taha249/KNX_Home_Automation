@@ -82,7 +82,7 @@ The individual address of an unloaded bus device is 15.15.255.
 
 ##### __Coupler-Gate Function__
 
-![gate function](<Images/Copuler-gate function.png>)
+<img src="Images/Copuler-gate function.png" width="400" height="250">
 
 If a coupler is used in the installation and the correct individual addresses are assigned to the couplers, a filter table will auto created in ETS file for the respective couplers.
 
