@@ -116,5 +116,31 @@ LR does not have filter table so it passes all telegrams.
 
 ##### __Connection of several lines__
 
-<img src="Images/Connectiong several lines.png" width="500" height="400">
+<img src="Images/Connectiong several lines.png" width="600" height="400">
+
+In an installation consisting of several lines, each line or each line segment must have its own ps/ch.
+
+##### __Internal line diagram__
+
+![internal line](<Images/Internal line telegram.png>)
+
+By press PB P1, sends a telegram with group address of 5/2/66.
+
+Despite all DVCs get the telegram when it is transmitted, only the actuators of L11,L12,and L13 with the same group addresses execute the command.
+
+##### __Line-crossing telegram__
+
+![line-crossing telegram](<Images/line crossing telegram.png>)
+
+If S1 is not connected in the same line as the lamp it has to control, it is necessary to transmit its telegrams via the main line.
+
+All DVCs on this line listen to the telegram from S1, but only the actuator controlling the lights L11 & L21 execute the command.
+
+##### __Area-crossing telegram__
+
+![area-crossing telegram](<Images/area crossing telegram.png>)
+
+If S1 is mounted in another area, it can still address all bus devices via backbone line.
+
+If 0/2/11 is assigned to S1, the telegram is routed to line 1 via BC1 and BC2 and LC1.
 
