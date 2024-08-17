@@ -91,3 +91,30 @@ The filter table contains the active line-crossing group addresses.
 The coupler routes aal received droup addresses if these are listed in its filter table.
 
 The LR used in installation passes on all telegrams has no filter table.
+
+##### __Coupler-Block Diagram__
+
+<img src="Images/Coupler-Block diagram.png" width="400" height="250">
+
+The LC can be programmed both from the primary line as well as the secondary line.
+
+The couplers are supplied from the primary line and only have one controller. This make the coupler can report secondary line power-down.
+
+##### __Coupler-Fields of Application__
+
+<img src="Images/Coupler-fileds of aplications.png" width="400" height="250">
+
+BC, LC and LR are identical devices -> their tasks depend on the location and individual address.
+
+     - BC -> connection between BL and main line.
+     - LC -> connection between main line and secondary L
+     - LR -> for extended a line by a line segment with up to 64 additional DVC and 1000 m cable length.
+
+BC and LC only forward line-crossing telegrams.
+
+LR does not have filter table so it passes all telegrams.
+
+##### __Connection of several lines__
+
+<img src="Images/Connectiong several lines.png" width="500" height="400">
+
