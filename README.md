@@ -28,7 +28,7 @@ Secondary line -> refers to the lower segment of a line or backbone coupler
 
 The main abbreviations are used:
 
-![abbreviations](Images/Abbreviations.jpg)
+<img src="Images/Abbreviations.jpg" width="400" height="250">
 
 ##### __Topology Line__
 
