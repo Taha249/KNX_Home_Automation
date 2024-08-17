@@ -62,3 +62,28 @@ The max. number of DVC on the backbone line decreases due to the energy consumpt
 
 The backbone lines requires its own ps/ch and also may not be used a LRs.
 
+##### __Individual Address__
+
+![individual address](<Images/Individual address.png>)
+
+The individual address identify the bus device and describes its location within the topology.
+
+     - A -> addresses the areas 1...15
+     - A -> addresses the DVC on BL 0
+     - A -> only 4 bits -> half byte
+     - L -> addresses the lines 1...15
+     - L -> addresses the main line of respective area 0
+     - L -> only 4 bits
+     - B -> addresses the DVCs on the line defined by L 0...255
+     - B -> addresses the coupler in respective line 0
+     - B -> 8 bits -> 1 byte
+
+The individual address of an unloaded bus device is 15.15.255.
+
+##### __Coupler-Gate Function__
+
+![gate function](<Images/Copuler-gate function.png>)
+
+If a coupler is used in the installation and the correct individual addresses are assigned to the couplers, a filter table will auto created in ETS file for the respective couplers.
+
+The filter table contains the active
