@@ -193,8 +193,8 @@ KNX RF uses 868 MHz frequency band.
 
 <p>
 
-<img src="Images/KNX Ready(single channel solution)1.png" width="500" height="350">
-<img src="Images/KNX Ready(single channel solution)2.png" width="500" height="350">
+<img src="Images/KNX Ready(single channel solution)1.png" width="300" height="350">
+<img src="Images/KNX Ready(single channel solution)2.png" width="300" height="350">
 
 </p>
 
