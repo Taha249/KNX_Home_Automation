@@ -434,3 +434,125 @@ Shortcuts -> Here you can see all shortcuts and you can adapt them to your habit
 Label Printer -> Settings for the ETS App Label Printer.
 
 
+###### __Project design views__
+
+![design views](<Images/ETS_project design view.png>)
+
+     1. Menu bar
+     2. Toolbar
+     3. Panels
+     4. Navigation bar
+     5. Status bar
+
+###### __Panels__
+
+![panels](Images/ETS_panels.png)
+
+     1. Title bar->select which panel should be displayed.
+     2. Toolbar->available tools
+     3. Tree view
+     4. List view->have up to three index cards which you can select via the tabs below.
+
+##### __buildings window__
+
+![buildings window](<Images/ETS_buildings window.png>)
+
+The Buildings view is used to structure the KNX
+projects according to the actual building structure and to insert the KNX devices.
+
+##### __Group addresses window__
+
+![GAW](<Images/ETS_group addresses window.png>)
+
+This view is required together with the Building view to link the group addresses to the corresponding group objects.
+
+##### __Topology window__
+
+![topology window](<Images/ETS_topology window.png>)
+
+##### __Devices window__
+
+![devices window](<Images/ETS_devices window.png>)
+
+##### __Configuring group addresses__
+
+![configuring GA](<Images/ETS_configuring group addresses.png>)
+
+##### __Assignment of group addresses__
+
+![assignment of GA](<Images/ETS_Assignment of group addresses.png>)
+
+##### __Sending group address__
+
+![sending GA](<Images/ETS_sending group addresses.png>)
+
+##### __Group speaker flag__
+
+![group SF](<Images/ETS_group speaker flag.png>)
+
+
+#### __KNX Commissioning ETS5__
+
+The commissioning can be carried out via
+✓ a USB interface
+✓ or a network connection
+of the commissioning PC. The required settings are explained in more detail under “Bus access” and “Configuring the interface”.
+
+##### __Starting the commissioning__
+
+![start comm](<Images/ETS_starting the commissioning.png>)
+
+You access the embedded commissioning dialog via the Buildings View, Topology View, Group Addresses View or Device View.
+
+##### __Configuring the interface__
+
+![KNXnet IP routing](<Images/ETS_KNXnet IP routing.png>)
+
+With the communication type “KNXnet/IP Routing”, pure KNX IP devices can be addressed. These are devices that only have an IP connection. The communication type can also be used
+to carry out a diagnosis of the IP network connection.
+
+##### __Downloading__
+
+![downloading](<Images/ETS_download full and partial.png>)
+
+Download all -> Download of the individual address and the application program (press the programming button)
+
+Download partial -> Download of the not yet downloaded parts (programmed flag not set)
+
+##### __Assigning individual addresses__
+
+![assigning](<Images/ETS_assigning individual address.png>)
+
+##### __Resetting devices__
+
+![resitting](<Images/ETS_resetting devices.png>)
+
+
+#### __ETS5 Diagnostics__
+
+##### __Diagnostics and fault location__
+
+![project check](<Images/ETS_Dianostics project check.png>)
+
+##### __Diagnostics: Individual Addresses__
+
+![individual address](<Images/ETS_Diagnostics individual address check.png>)
+
+##### __Devices in Programming Mode__
+
+![PM](<Images/ETS_Diagnostics devices in programming mode.png>)
+
+##### __Diagnostics: Line Scan update flags__
+
+![flag](<Images/ETS_Diagnostics select update flag.png>)
+
+
+##### __Saving telegrams__
+
+![saving telegrams](<Images/ETS_Diagnostics saving telegrams.png>)
+
+It is possible to save recorded telegrams via the button “Save” in the toolbar of the Bus Monitor or Group Monitor window.
+
+##### __Tool Diagnostics – Summary__
+
+![summary](<Images/ETS_tool diagnostics summary.png>)
