@@ -357,10 +357,26 @@ shows how you can access the properties of a project by clicking on a project. Y
 
 ###### __Tab Bus__
 
+1- __Connections__
+
 <p>
 
 <img src="Images/ETS_tab bus connections interfaces.png" width="" height="">
 <img src="Images/ETS_tab bus connections options.png" width="" height="">
+
+
+</p>
+
+Interfaces shows current interfaces and configured it by adding, importing, and exporting and also shows discovered interfaces.
+
+Connection options acn use direct IP connection if avilable, use project bus connections if defined and disconnect  connection after usage.
+
+2- __Monitor__
+
+<p>
+
+<img src="Images/ETS_tab bus monitor group monitor.png" width="500" height="200">
+<img src="Images/ETS_tab bus monitors bus monitor.png" width="500" height="200">
 
 
 </p>
