@@ -315,3 +315,41 @@ You can only obtain ETS from from KNX assosiation via internet in the KNX online
 
 ##### __Licences__
 
+![licence](Images/ETS_licence.png)
+
+There are 4 versions availabel:
+
+1- Demo -> Full functionality max 5 devices per project.
+
+2- Lite -> Full functionality max 20 devices per project.
+
+3- Professional -> Full functionality, no restrictions as regards no. of devices.
+
+4- Supplemntary -> Additional licence for professional on a second PC.
+
+##### __Starting ETS__
+
+![ETS starting](Images/ETS_starting1.png)
+
+1- A bar with tabs for different functions of dashboard.
+
+2- The workspace with the functions selsected by means of the tabs.
+
+3- A status bar with info of ETS, to licences and apps.
+
+##### __Dashboards Tabs__
+
+###### __Overview tab__
+
+![overview tab](<Images/ETS_overview tab.png>)
+
+Window area ->  you can select the project that is to be
+edited or you can create a new project.
+
+Area ->  up-to-date news on KNX Association is
+displayed provided that ETS is connected to the internet.
+
+###### __Project properties__
+
+![project details](<Images/ETS_project details.png>)
+
