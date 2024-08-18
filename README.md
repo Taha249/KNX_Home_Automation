@@ -375,8 +375,11 @@ Connection options acn use direct IP connection if avilable, use project bus con
 
 <p>
 
-<img src="Images/ETS_tab bus monitor group monitor.png" width="500" height="200">
-<img src="Images/ETS_tab bus monitors bus monitor.png" width="500" height="200">
+<img src="Images/ETS_tab bus monitor group monitor.png" width="" height="">
+<img src="Images/ETS_tab bus monitors bus monitor.png" width="" height="">
 
 
 </p>
+
+3- __Diagnostics__
+
