@@ -383,15 +383,54 @@ Connection options acn use direct IP connection if avilable, use project bus con
 
 3- __Diagnostics__
 
-<p>
 
-<img src="Images/ETS_tab bus diagnostics unload device.png" width="" height="">
+<img src="Images/ETS_tab bus diagnostics unload device.png" 
+width="" height="">
+
+This function will unload the app and address of the device in programming mode.
+
 <img src="Images/ETS_tab bus diagnostics device info.png" width="" height="">
+
+In this tab we can read device information from searching the individual address.
+
+
 <img src="Images/ETS_tab bus diagnostics IA programming mode.png" width="" height="">
+
 <img src="Images/ETS_tab bus diagnostics individual address check.png" width="" height="">
+
+Check if an address is reachable and locate the device from putting the individual address.
+
+
 <img src="Images/ETS_tab bus diagnostics line scan.png" width="" height="">
 
+In this tab we can search ot list all existing addresses in a single line.
 
+###### __Catalogs Tab__
 
-</p>
+![catalogs tab](<Images/ETS_catalogs tap.png>)
+
+Under the tab catalogs the product data of the manufacturers are administrated. After the installation ETS does not dispose yet of product data of the manufacturers. In order to be able to insert product data into an ETS project, product data of the manufacturers have to be imported before into the ETS catalog (product store).
+
+###### __Settings Tab__
+
+![settings tab](<Images/ETS_settings tap.png>)
+
+The settings are subdivided in eight different sections, which you can select by clicking on the terms in the left part of the window:
+
+Presentation ->influence the behaviour and the appearance of ETS.
+
+Language -> elect the language of ETS
+
+Online Catalog ->the settings for the ETS App Online KNX Product Catalog are made.
+
+Data Storage ->set the paths for the storage of the product data.
+
+Troubleshooting -> You can set amongst others how detailed your work with ETS will be documented in the log files which can be helpful later on for the error diagnostics by KNX Association.
+
+Import/Export -> Settings for the extent of exported files.
+
+Shortcuts -> Here you can see all shortcuts and you can adapt them to your habits.
+
+Label Printer -> Settings for the ETS App Label Printer.
+
 
