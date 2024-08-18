@@ -383,3 +383,15 @@ Connection options acn use direct IP connection if avilable, use project bus con
 
 3- __Diagnostics__
 
+<p>
+
+<img src="Images/ETS_tab bus diagnostics unload device.png" width="" height="">
+<img src="Images/ETS_tab bus diagnostics device info.png" width="" height="">
+<img src="Images/ETS_tab bus diagnostics IA programming mode.png" width="" height="">
+<img src="Images/ETS_tab bus diagnostics individual address check.png" width="" height="">
+<img src="Images/ETS_tab bus diagnostics line scan.png" width="" height="">
+
+
+
+</p>
+
