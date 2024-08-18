@@ -353,3 +353,14 @@ displayed provided that ETS is connected to the internet.
 
 ![project details](<Images/ETS_project details.png>)
 
+shows how you can access the properties of a project by clicking on a project. You can also import and export projects by means of this window. 
+
+###### __Tab Bus__
+
+<p>
+
+<img src="Images/ETS_tab bus connections interfaces.png" width="" height="">
+<img src="Images/ETS_tab bus connections options.png" width="" height="">
+
+
+</p>
