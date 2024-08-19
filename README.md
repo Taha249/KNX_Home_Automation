@@ -35,7 +35,22 @@ This repo is dedicated to the KNX system including ACS experience in configurati
   - [Cobination of transmission media](#cobination-of-transmission-mdeia)
 
   </details>
-  
+
+- [KNX Bus device](#knx-bus-device)
+
+- <details>
+  <summary>KNX TP Installation</summary>
+
+   - [Safety Low Voltage Network](#safety-low-voltage-networks)
+   - [Types of Bus cables](#types-of-bus-cables)
+   - [Power supply unit](#power-supply-unit)
+   - [Power supply for two lines](#power-supply-for-two-lines)
+   - [Two power supply units in one line](#two-power-supply-units-in-one-line)
+   - [Distributed power supply](#distributed-power-supply)
+   - [Power supply unit with data rail](#power-supply-unit-with-data-rail)
+   - [Power supply unit for two lines with data rail](#power-supply-unit-for-two-lines-with-data-rail)
+
+  </details>
 
 
 ### __Inroduction to KNX__
@@ -251,14 +266,6 @@ Permitted voltage range:
 
 ⚠️ A SELV network may not be earthed!
 
-##### __SELV Safety Low Voltage Network__
-
-![SELV!](Images/SELV1.png)
-
-A PS with secure mains seperation generates the SELV voltage for KNX TP bus.
-
-Voltage used -> 30 VDC
-
 ##### __Types of bus cables__
 
 ![bus cables](<Images/bus cable.png>)
@@ -267,13 +274,6 @@ Voltage used -> 30 VDC
      - J-Y(st) 2x2x0.8 -> outdoors -> test voltage: 2.5Kv
 
 The requirements for instance include a loop resistance of 75 ohm and a loop capacitance of 100 nF per 1000 m.
-
-##### __Bus devices on distribution boards__
-
-     1. Use of standardised distribution boards.
-     2. Install bus cables with sheath up to the terminal.
-     3. Do not install bus devices above mains devices with significant power losses.
-     4. Cover unused section of data rail.
 
 ##### __Power Supply unit__
 
@@ -292,10 +292,6 @@ Bus devices require a min of 21 VDC for safe operation.
 ##### __Distributed power supply__
 
 ![DPS](<Images/Distributed power supply.png>)
-
-##### __Checking the installation__
-
-![checking](<Images/checking the installation.png>)
 
 ##### __Power supply unit with data rail__
 
