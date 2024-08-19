@@ -244,14 +244,6 @@ Voltage used -> 30 VDC
 
 The requirements for instance include a loop resistance of 75 ohm and a loop capacitance of 100 nF per 1000 m.
 
-##### __Installation of cables__
-
-![cables installation](<Images/Installation of cables.png>)
-
-The requirements for installaiton of bus cables are the same as for installaiotn of 230/400 VAC networks.
-
-A min clearance space of 4mm must be observed between the insulated wire cores of KNX TP bus and those of sheathed 230 VAC.
-
 ##### __Bus devices on distribution boards__
 
      1. Use of standardised distribution boards.
