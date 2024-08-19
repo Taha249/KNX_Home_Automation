@@ -52,6 +52,65 @@ This repo is dedicated to the KNX system including ACS experience in configurati
 
   </details>
 
+- <details>
+  <summary>KNX project design ETS5:Basics</summary>
+
+   - [Installation of ETS](#installation-of-ets)
+   - [Licences](#licences)
+   - [Starting ETS5](#starting-ets5)
+    
+   -  <details>
+      <summary>Dashboards tabs</summary>
+
+      - [Overview tab](#overview-tab)
+       
+      - [Project Properties](#project-properties)
+      - [Bus tab](#bus-tab)
+      - [Catalogs tab](#catalogs-tab)
+      - [Settings tab](#settings-tab)
+       
+      </details>
+
+   - [Project design views](#project-design-views)
+   - [Panels](#panels)
+   
+   -  <details>
+      <summary>ETS windows</summary>
+
+      - [Buildings window](#buildings-window)
+      - [Group addresses window](#group-addresses-window)
+      - [Topology window](#topology-window)
+      - [Devices window](#devices-window)
+      - [Configuring group addresses](#configuring-group-addresses)
+      - [Assignment individual addresses](#assignment-of-group-addresses)
+      - [Sending group address](#sending-group-address)
+      
+      </details>
+
+    - <details>
+      <summary>ETS Commissioning</summary>
+
+       - [Starting the commissioning](#starting-the-commissioning)
+       - [Configuraing the interface](#configuring-the-interface)
+       - [Downloading](#downloading)
+       - [Assigning individual addresses](#assigning-individual-addresses)
+       - [Resetting devices](#resetting-devices)
+
+      </details>
+
+    - <details>
+      <summary>ETS Diagnostics</summary>
+
+       - [Diagnostics and fault location](#diagnostics-and-fault-location)
+       - [Diagnostics:Individual addresses](#diagnostics-individual-addresses)
+       - [Devices in programming mode](#devices-in-programming-mode)
+       - [Diagnostics:line scan update flag](#diagnostics-line-scan-update-flags)
+       - [Saving telegrams](#saving-telegrams)
+
+      </details>
+
+
+
 
 ### __Inroduction to KNX__
 
@@ -302,23 +361,6 @@ Bus devices require a min of 21 VDC for safe operation.
 ![ps unit for 2 lines with data rail](<Images/PS unit for 2 lines with data rail.png>)
 
 
-#### __KNX System Overview__
-
-##### __Minimal structure of a KNX TP installation and addressing__
-
-<p>
-
-<img src="Images/minimal structure of TP install.png" width="400" height="250">
-<img src="Images/addressing.png" width="400" height="250">
-
-
-</p>
-
-##### __Cable lengths__
-
-![cable lengths](<Images/cable lengths.png>)
-
-
 #### __KNX project design ETS5:Basics__
 
 ##### __Installation of ETS__
@@ -339,7 +381,7 @@ There are 4 versions availabel:
 
 4- Supplemntary -> Additional licence for professional on a second PC.
 
-##### __Starting ETS__
+##### __Starting ETS5__
 
 ![ETS starting](Images/ETS_starting1.png)
 
@@ -367,7 +409,7 @@ displayed provided that ETS is connected to the internet.
 
 shows how you can access the properties of a project by clicking on a project. You can also import and export projects by means of this window. 
 
-###### __Tab Bus__
+###### __Bus tab__
 
 1- __Connections__
 
@@ -446,7 +488,7 @@ Shortcuts -> Here you can see all shortcuts and you can adapt them to your habit
 Label Printer -> Settings for the ETS App Label Printer.
 
 
-###### __Project design views__
+##### __Project design views__
 
 ![design views](<Images/ETS_project design view.png>)
 
@@ -456,7 +498,7 @@ Label Printer -> Settings for the ETS App Label Printer.
      4. Navigation bar
      5. Status bar
 
-###### __Panels__
+##### __Panels__
 
 ![panels](Images/ETS_panels.png)
 
@@ -465,45 +507,43 @@ Label Printer -> Settings for the ETS App Label Printer.
      3. Tree view
      4. List view->have up to three index cards which you can select via the tabs below.
 
-##### __buildings window__
+##### __ETS windows__
+
+###### __buildings window__
 
 ![buildings window](<Images/ETS_buildings window.png>)
 
 The Buildings view is used to structure the KNX
 projects according to the actual building structure and to insert the KNX devices.
 
-##### __Group addresses window__
+###### __Group addresses window__
 
 ![GAW](<Images/ETS_group addresses window.png>)
 
 This view is required together with the Building view to link the group addresses to the corresponding group objects.
 
-##### __Topology window__
+###### __Topology window__
 
 ![topology window](<Images/ETS_topology window.png>)
 
-##### __Devices window__
+###### __Devices window__
 
 ![devices window](<Images/ETS_devices window.png>)
 
-##### __Configuring group addresses__
+###### __Configuring group addresses__
 
 ![configuring GA](<Images/ETS_configuring group addresses.png>)
 
-##### __Assignment of group addresses__
+###### __Assignment of group addresses__
 
 ![assignment of GA](<Images/ETS_Assignment of group addresses.png>)
 
-##### __Sending group address__
+###### __Sending group address__
 
 ![sending GA](<Images/ETS_sending group addresses.png>)
 
-##### __Group speaker flag__
 
-![group SF](<Images/ETS_group speaker flag.png>)
-
-
-#### __KNX Commissioning ETS5__
+#### __ETS Commissioning__
 
 The commissioning can be carried out via
 ✓ a USB interface
@@ -540,7 +580,7 @@ Download partial -> Download of the not yet downloaded parts (programmed flag no
 ![resitting](<Images/ETS_resetting devices.png>)
 
 
-#### __ETS5 Diagnostics__
+#### __ETS Diagnostics__
 
 ##### __Diagnostics and fault location__
 
@@ -564,7 +604,3 @@ Download partial -> Download of the not yet downloaded parts (programmed flag no
 ![saving telegrams](<Images/ETS_Diagnostics saving telegrams.png>)
 
 It is possible to save recorded telegrams via the button “Save” in the toolbar of the Bus Monitor or Group Monitor window.
-
-##### __Tool Diagnostics – Summary__
-
-![summary](<Images/ETS_tool diagnostics summary.png>)
